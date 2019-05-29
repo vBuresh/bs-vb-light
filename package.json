@@ -1,0 +1,22 @@
+{
+    "name": "bs-vb-light",
+    "displayName": "bs-vb-light",
+    "description": "A set of light bs Snippets for VSCode",
+    "icon": "images/icon.png",
+    "version": "0.0.1",
+    "publisher": "vBuresh",
+    "license": "See License section in LICENSE",
+    "homepage": "https://github.com/vBuresh/bs-vb-light/LICENSE",
+    "engines": {
+        "vscode": "^1.34.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [{
+            "language": "html",
+            "path": "./snippets/snippets.json"
+        }]
+    }
+}

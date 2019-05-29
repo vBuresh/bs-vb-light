@@ -1,0 +1,51 @@
+{
+    "buk-pomor dropcp CSL": {
+        "prefix": "vb-buk:pomor",
+        "body": "\n<span class=\"buk-pomor\">${2:Г}</span>$1\n",
+        "description": "Dropcap for CSL",
+        "scope": ""
+    },
+    "buk-h CSL": {
+        "prefix": "vb-buk:h",
+        "body": "\n <span class=\"buktxt\"> ${2:Г}</span>$1\n",
+        "description": "Capital letter for CSL",
+        "scope": ""
+    },
+    "zahalo CSL": {
+        "prefix": "vb-zahalo:CSL",
+        "body": "\n<span class=\"zahalo\">Заⷱ҇ $1</span>\n",
+        "description": "Dropcap for zahalo",
+        "scope": ""
+    },
+    "ks-kafisma h CSL": {
+        "prefix": "vb-ks-heading:CSL",
+        "body": "\n <p id=\"ks$1\" class=\"csh1 text-center\">Каѳі́сма 0$2</p> \n",
+        "description": "Psaltir - kafisma heading for CSL",
+        "scope": ""
+    },
+    "ps-psalom h CSL": {
+        "prefix": "vb-ps-heading:CSL",
+        "body": "\n <p id=\"ps$1\" class=\"csh3 text-center\">Ѱало́мъ дв҃дꙋ, не надпи́санъ ᲂу҆ є҆врє́й, $2</p> \n",
+        "description": "Psaltir - psalom heading for CSL",
+        "scope": ""
+    },
+    "ps-origin link CSL": {
+        "prefix": "vb-ps-origin-links:CSL",
+        "body": "\n <p class=\"csh\">Поми́луй мѧ̀, бж҃е, поми́луй мѧ̀</p>\n\t$4\n<p class=\"origin\">Ѱало́мъ є҃, в҃_д҃ (<a href=\"../psaltir/psaltir.html#ps$1-$2\">Пс. $1, $2-$3</a>)</p> \n",
+        "description": "Psaltir - links for CSL origin",
+        "scope": ""
+    },
+    "newPage 2_l-CSL": {
+        "prefix": "vb-newPage2_lCSL",
+        "body": "\n<!doctype html>\n <html lang=\"ru\">\n<head>\n<meta charset=\"utf-8\">\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1, shrink-to-fit=no\">\n<meta name=\"description\"content=\"${1:Всё о Вере Православной}\">\n<title>${1:Всё о Вере Православной}</title>\n<link rel=\"stylesheet\" href=\"../assets/css/vpsalom.min.css\">\n</head>\n<body>\n @@include('./../_includes/2_l-header.html')\n\t<div class=\"container ${2:cstxt\">\n<!--=================-->\n\t\t$3\n<!--=================-->\n</div>\n@@include('./../_includes/2_l-footer.html')\n</body>\n</html>\n",
+        "description": "new Page 2-level 2_l CSL",
+        "scope": ""
+    },
+    "tmp": {
+        "prefix": "tmp:CSL",
+        "body": "\n  \n",
+        "description": "Dropcap",
+        "scope": ""
+    }
+
+}
